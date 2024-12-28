@@ -368,6 +368,21 @@ tramp
 # Project 1B things
 # words
 
+
+### Miscellaneous ###
+
+# Include the notes directory
+!notes/*
+# Ignore DS_Store in notes
+notes/.DS_Store
+
+# Include lectureCode directory
+!lectureCode/*
+# Ignore DS_Store in lectureCode
+lectureCode/.DS_Store
+
+
+
 # Capers Lab Things (SP21)
 !Makefile
 !lab6/testing/*
@@ -390,13 +405,3 @@ tramp
 !byow/**/*.mp4
 !byow/**/*.gif
 !byow/**/*.wav
-
-
-# Personal Notes
-!notes/*
-notes/.DS_Store
-!notes/pics/*
-
-# LectureNotes
-# https://github.com/Berkeley-CS61B/lectureCode-sp21
-!lectureCode/*
