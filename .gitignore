@@ -392,5 +392,11 @@ tramp
 !byow/**/*.wav
 
 
-# Personal Files
+# Personal Notes
 !notes/*
+notes/.DS_Store
+!notes/pics/*
+
+# LectureNotes
+# https://github.com/Berkeley-CS61B/lectureCode-sp21
+!lectureCode/*
